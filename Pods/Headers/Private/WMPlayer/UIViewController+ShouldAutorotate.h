@@ -1,0 +1,1 @@
+../../../WMPlayer/WMPlayer/Category/UIViewController+ShouldAutorotate.h
