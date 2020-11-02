@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842C5913254AB37400605A11 /* MSTItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C5912254AB37400605A11 /* MSTItemModel.m */; };
+		842C591E254AB41E00605A11 /* ScienceRoomItemCollcetionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C5919254AB41E00605A11 /* ScienceRoomItemCollcetionView.m */; };
+		842C591F254AB41E00605A11 /* ScienceRoomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C591B254AB41E00605A11 /* ScienceRoomCollectionView.m */; };
+		842C5926254AB44200605A11 /* ScienceRoomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C5924254AB44200605A11 /* ScienceRoomCell.m */; };
+		842C5927254AB44200605A11 /* ScienceRoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842C5925254AB44200605A11 /* ScienceRoomCell.xib */; };
+		842C592E254AB47600605A11 /* ScienceRoomItenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842C592B254AB47600605A11 /* ScienceRoomItenCell.xib */; };
+		842C592F254AB47600605A11 /* ScienceRoomItenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C592C254AB47600605A11 /* ScienceRoomItenCell.m */; };
+		842C593D254AB55300605A11 /* NSObject+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C5938254AB55300605A11 /* NSObject+Extend.m */; };
+		842C593E254AB55300605A11 /* UIImageView+AnimationImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C593A254AB55300605A11 /* UIImageView+AnimationImageView.m */; };
+		842C593F254AB55300605A11 /* UIImageView+BgLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C593B254AB55300605A11 /* UIImageView+BgLayer.m */; };
+		842C5948254FA10D00605A11 /* MSTApiUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C5947254FA10D00605A11 /* MSTApiUtils.m */; };
+		842C594E254FDA7100605A11 /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C594D254FDA7100605A11 /* NSString+AttributedString.m */; };
+		8453D900254FE61300E81919 /* MSTSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453D8FF254FE61300E81919 /* MSTSearchResultViewController.m */; };
+		8453D918254FF06A00E81919 /* MSTIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8453D916254FF06A00E81919 /* MSTIntroduceViewController.m */; };
+		8453D919254FF06A00E81919 /* MSTIntroduceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8453D917254FF06A00E81919 /* MSTIntroduceViewController.xib */; };
+		8453D921254FF3AD00E81919 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8453D920254FF3AD00E81919 /* WebKit.framework */; };
+		84D587C8254A643E0010A69F /* MSTHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D587C6254A643D0010A69F /* MSTHeadView.m */; };
+		84D587D3254A66160010A69F /* MSTScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D587D0254A66160010A69F /* MSTScanResultViewController.m */; };
+		84D587E0254A969D0010A69F /* MSTEntranceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D587DF254A969D0010A69F /* MSTEntranceView.m */; };
+		84D587E6254A96C10010A69F /* ActionTypeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D587E5254A96C00010A69F /* ActionTypeButton.m */; };
+		84D587EC254A9C1B0010A69F /* MSTActivityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D587EB254A9C1B0010A69F /* MSTActivityModel.m */; };
+		84D587F3254AA3670010A69F /* SciencePageResuableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D587F1254AA3670010A69F /* SciencePageResuableView.m */; };
+		84D587F4254AA3670010A69F /* SciencePageResuableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D587F2254AA3670010A69F /* SciencePageResuableView.xib */; };
+		84D587FA254AA4590010A69F /* SciencePageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D587F9254AA4590010A69F /* SciencePageTableView.m */; };
+		84D58801254AA4B20010A69F /* ScienceNewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D587FF254AA4B20010A69F /* ScienceNewCell.m */; };
+		84D58802254AA4B20010A69F /* ScienceNewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D58800254AA4B20010A69F /* ScienceNewCell.xib */; };
+		84D58808254AA4BC0010A69F /* SciencePageNewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D58807254AA4BC0010A69F /* SciencePageNewFooterView.m */; };
 		84E31D8325392D25000758DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E31D8225392D25000758DD /* AppDelegate.m */; };
 		84E31D8E25392D27000758DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E31D8D25392D27000758DD /* Assets.xcassets */; };
 		84E31D9425392D27000758DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E31D9325392D27000758DD /* main.m */; };
@@ -21,6 +48,8 @@
 		84E31E8C25393690000758DD /* MSTMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E31E8B25393690000758DD /* MSTMineViewController.m */; };
 		84E31EC025393B9F000758DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E31EBE25393B9F000758DD /* LaunchScreen.storyboard */; };
 		84E31EC125393B9F000758DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E31EBF25393B9F000758DD /* Main.storyboard */; };
+		84E31EDB25397CA6000758DD /* MSTDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E31ED925397CA5000758DD /* MSTDataRequest.m */; };
+		84E31EF025397DD8000758DD /* MSTDataRequest+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E31EEF25397DD8000758DD /* MSTDataRequest+Home.m */; };
 		8A86425285D6C8079E8EA96A /* libPods-MST.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF0AC5638D0F3ED984AE998 /* libPods-MST.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +73,54 @@
 /* Begin PBXFileReference section */
 		0233A3DD12E4FE8AD35B7428 /* Pods-MST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MST.debug.xcconfig"; path = "Target Support Files/Pods-MST/Pods-MST.debug.xcconfig"; sourceTree = "<group>"; };
 		1ED30EF69862150A0FE886C5 /* Pods-MST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MST.release.xcconfig"; path = "Target Support Files/Pods-MST/Pods-MST.release.xcconfig"; sourceTree = "<group>"; };
+		842C5911254AB37400605A11 /* MSTItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTItemModel.h; sourceTree = "<group>"; };
+		842C5912254AB37400605A11 /* MSTItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTItemModel.m; sourceTree = "<group>"; };
+		842C5918254AB41E00605A11 /* ScienceRoomCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScienceRoomCollectionView.h; sourceTree = "<group>"; };
+		842C5919254AB41E00605A11 /* ScienceRoomItemCollcetionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScienceRoomItemCollcetionView.m; sourceTree = "<group>"; };
+		842C591A254AB41E00605A11 /* ScienceRoomItemCollcetionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScienceRoomItemCollcetionView.h; sourceTree = "<group>"; };
+		842C591B254AB41E00605A11 /* ScienceRoomCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScienceRoomCollectionView.m; sourceTree = "<group>"; };
+		842C5923254AB44200605A11 /* ScienceRoomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScienceRoomCell.h; sourceTree = "<group>"; };
+		842C5924254AB44200605A11 /* ScienceRoomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScienceRoomCell.m; sourceTree = "<group>"; };
+		842C5925254AB44200605A11 /* ScienceRoomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScienceRoomCell.xib; sourceTree = "<group>"; };
+		842C592B254AB47600605A11 /* ScienceRoomItenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScienceRoomItenCell.xib; sourceTree = "<group>"; };
+		842C592C254AB47600605A11 /* ScienceRoomItenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScienceRoomItenCell.m; sourceTree = "<group>"; };
+		842C592D254AB47600605A11 /* ScienceRoomItenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScienceRoomItenCell.h; sourceTree = "<group>"; };
+		842C5937254AB55300605A11 /* UIImageView+AnimationImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AnimationImageView.h"; sourceTree = "<group>"; };
+		842C5938254AB55300605A11 /* NSObject+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extend.m"; sourceTree = "<group>"; };
+		842C5939254AB55300605A11 /* UIImageView+BgLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BgLayer.h"; sourceTree = "<group>"; };
+		842C593A254AB55300605A11 /* UIImageView+AnimationImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AnimationImageView.m"; sourceTree = "<group>"; };
+		842C593B254AB55300605A11 /* UIImageView+BgLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BgLayer.m"; sourceTree = "<group>"; };
+		842C593C254AB55300605A11 /* NSObject+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extend.h"; sourceTree = "<group>"; };
+		842C5946254FA10D00605A11 /* MSTApiUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTApiUtils.h; sourceTree = "<group>"; };
+		842C5947254FA10D00605A11 /* MSTApiUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTApiUtils.m; sourceTree = "<group>"; };
+		842C594C254FDA7100605A11 /* NSString+AttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AttributedString.h"; sourceTree = "<group>"; };
+		842C594D254FDA7100605A11 /* NSString+AttributedString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AttributedString.m"; sourceTree = "<group>"; };
+		8453D8FE254FE61300E81919 /* MSTSearchResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTSearchResultViewController.h; sourceTree = "<group>"; };
+		8453D8FF254FE61300E81919 /* MSTSearchResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTSearchResultViewController.m; sourceTree = "<group>"; };
+		8453D915254FF06A00E81919 /* MSTIntroduceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTIntroduceViewController.h; sourceTree = "<group>"; };
+		8453D916254FF06A00E81919 /* MSTIntroduceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTIntroduceViewController.m; sourceTree = "<group>"; };
+		8453D917254FF06A00E81919 /* MSTIntroduceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MSTIntroduceViewController.xib; sourceTree = "<group>"; };
+		8453D920254FF3AD00E81919 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		84D587C6254A643D0010A69F /* MSTHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTHeadView.m; sourceTree = "<group>"; };
+		84D587C7254A643D0010A69F /* MSTHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTHeadView.h; sourceTree = "<group>"; };
+		84D587CF254A66160010A69F /* MSTScanResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTScanResultViewController.h; sourceTree = "<group>"; };
+		84D587D0254A66160010A69F /* MSTScanResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTScanResultViewController.m; sourceTree = "<group>"; };
+		84D587DE254A969D0010A69F /* MSTEntranceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTEntranceView.h; sourceTree = "<group>"; };
+		84D587DF254A969D0010A69F /* MSTEntranceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTEntranceView.m; sourceTree = "<group>"; };
+		84D587E4254A96C00010A69F /* ActionTypeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionTypeButton.h; sourceTree = "<group>"; };
+		84D587E5254A96C00010A69F /* ActionTypeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionTypeButton.m; sourceTree = "<group>"; };
+		84D587EA254A9C1B0010A69F /* MSTActivityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSTActivityModel.h; sourceTree = "<group>"; };
+		84D587EB254A9C1B0010A69F /* MSTActivityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTActivityModel.m; sourceTree = "<group>"; };
+		84D587F0254AA3670010A69F /* SciencePageResuableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SciencePageResuableView.h; sourceTree = "<group>"; };
+		84D587F1254AA3670010A69F /* SciencePageResuableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SciencePageResuableView.m; sourceTree = "<group>"; };
+		84D587F2254AA3670010A69F /* SciencePageResuableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SciencePageResuableView.xib; sourceTree = "<group>"; };
+		84D587F8254AA4580010A69F /* SciencePageTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SciencePageTableView.h; sourceTree = "<group>"; };
+		84D587F9254AA4590010A69F /* SciencePageTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SciencePageTableView.m; sourceTree = "<group>"; };
+		84D587FE254AA4B20010A69F /* ScienceNewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScienceNewCell.h; sourceTree = "<group>"; };
+		84D587FF254AA4B20010A69F /* ScienceNewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScienceNewCell.m; sourceTree = "<group>"; };
+		84D58800254AA4B20010A69F /* ScienceNewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScienceNewCell.xib; sourceTree = "<group>"; };
+		84D58806254AA4BC0010A69F /* SciencePageNewFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SciencePageNewFooterView.h; sourceTree = "<group>"; };
+		84D58807254AA4BC0010A69F /* SciencePageNewFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SciencePageNewFooterView.m; sourceTree = "<group>"; };
 		84E31D7E25392D25000758DD /* MST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E31D8125392D25000758DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E31D8225392D25000758DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +152,10 @@
 		84E31E8B25393690000758DD /* MSTMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSTMineViewController.m; sourceTree = "<group>"; };
 		84E31EBE25393B9F000758DD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E31EBF25393B9F000758DD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		84E31ED925397CA5000758DD /* MSTDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTDataRequest.m; sourceTree = "<group>"; };
+		84E31EDA25397CA5000758DD /* MSTDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTDataRequest.h; sourceTree = "<group>"; };
+		84E31EEE25397DD8000758DD /* MSTDataRequest+Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSTDataRequest+Home.h"; sourceTree = "<group>"; };
+		84E31EEF25397DD8000758DD /* MSTDataRequest+Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MSTDataRequest+Home.m"; sourceTree = "<group>"; };
 		EBF0AC5638D0F3ED984AE998 /* libPods-MST.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MST.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -83,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8453D921254FF3AD00E81919 /* WebKit.framework in Frameworks */,
 				8A86425285D6C8079E8EA96A /* libPods-MST.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,6 +189,7 @@
 		19D858F949734052E21B9D4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8453D920254FF3AD00E81919 /* WebKit.framework */,
 				EBF0AC5638D0F3ED984AE998 /* libPods-MST.a */,
 			);
 			name = Frameworks;
@@ -119,6 +202,42 @@
 				1ED30EF69862150A0FE886C5 /* Pods-MST.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		842C5936254AB55300605A11 /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				842C593C254AB55300605A11 /* NSObject+Extend.h */,
+				842C5938254AB55300605A11 /* NSObject+Extend.m */,
+				842C5937254AB55300605A11 /* UIImageView+AnimationImageView.h */,
+				842C593A254AB55300605A11 /* UIImageView+AnimationImageView.m */,
+				842C5939254AB55300605A11 /* UIImageView+BgLayer.h */,
+				842C593B254AB55300605A11 /* UIImageView+BgLayer.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		8453D913254FF01900E81919 /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+				8453D915254FF06A00E81919 /* MSTIntroduceViewController.h */,
+				8453D916254FF06A00E81919 /* MSTIntroduceViewController.m */,
+				8453D917254FF06A00E81919 /* MSTIntroduceViewController.xib */,
+			);
+			path = Introduce;
+			sourceTree = "<group>";
+		};
+		84D587C5254A642E0010A69F /* MSTSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				84D587C7254A643D0010A69F /* MSTHeadView.h */,
+				84D587C6254A643D0010A69F /* MSTHeadView.m */,
+				84D587DE254A969D0010A69F /* MSTEntranceView.h */,
+				84D587DF254A969D0010A69F /* MSTEntranceView.m */,
+				84D587E4254A96C00010A69F /* ActionTypeButton.h */,
+				84D587E5254A96C00010A69F /* ActionTypeButton.m */,
+			);
+			path = MSTSearchView;
 			sourceTree = "<group>";
 		};
 		84E31D7525392D25000758DD = {
@@ -175,11 +294,11 @@
 		84E31DD125393163000758DD /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				84E31EBE25393B9F000758DD /* LaunchScreen.storyboard */,
-				84E31EBF25393B9F000758DD /* Main.storyboard */,
 				84E31D8125392D25000758DD /* AppDelegate.h */,
 				84E31D8225392D25000758DD /* AppDelegate.m */,
 				84E31E6B253932A6000758DD /* PrefixHeader.pch */,
+				84E31EBE25393B9F000758DD /* LaunchScreen.storyboard */,
+				84E31EBF25393B9F000758DD /* Main.storyboard */,
 				84E31D9225392D27000758DD /* Info.plist */,
 				84E31D9325392D27000758DD /* main.m */,
 				84E31D8D25392D27000758DD /* Assets.xcassets */,
@@ -190,6 +309,7 @@
 		84E31DD225393163000758DD /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				84D587C5254A642E0010A69F /* MSTSearchView */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -217,6 +337,10 @@
 		84E31DDC253931BD000758DD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84D587EA254A9C1B0010A69F /* MSTActivityModel.h */,
+				84D587EB254A9C1B0010A69F /* MSTActivityModel.m */,
+				842C5911254AB37400605A11 /* MSTItemModel.h */,
+				842C5912254AB37400605A11 /* MSTItemModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -224,6 +348,26 @@
 		84E31DDD253931BD000758DD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84D587F0254AA3670010A69F /* SciencePageResuableView.h */,
+				84D587F1254AA3670010A69F /* SciencePageResuableView.m */,
+				84D587F2254AA3670010A69F /* SciencePageResuableView.xib */,
+				84D587F8254AA4580010A69F /* SciencePageTableView.h */,
+				84D587F9254AA4590010A69F /* SciencePageTableView.m */,
+				84D587FE254AA4B20010A69F /* ScienceNewCell.h */,
+				84D587FF254AA4B20010A69F /* ScienceNewCell.m */,
+				84D58800254AA4B20010A69F /* ScienceNewCell.xib */,
+				84D58806254AA4BC0010A69F /* SciencePageNewFooterView.h */,
+				84D58807254AA4BC0010A69F /* SciencePageNewFooterView.m */,
+				842C5918254AB41E00605A11 /* ScienceRoomCollectionView.h */,
+				842C591B254AB41E00605A11 /* ScienceRoomCollectionView.m */,
+				842C591A254AB41E00605A11 /* ScienceRoomItemCollcetionView.h */,
+				842C5919254AB41E00605A11 /* ScienceRoomItemCollcetionView.m */,
+				842C592D254AB47600605A11 /* ScienceRoomItenCell.h */,
+				842C592C254AB47600605A11 /* ScienceRoomItenCell.m */,
+				842C592B254AB47600605A11 /* ScienceRoomItenCell.xib */,
+				842C5923254AB44200605A11 /* ScienceRoomCell.h */,
+				842C5924254AB44200605A11 /* ScienceRoomCell.m */,
+				842C5925254AB44200605A11 /* ScienceRoomCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,6 +377,11 @@
 			children = (
 				84E31E7E25393666000758DD /* MSTHomeViewController.h */,
 				84E31E7F25393666000758DD /* MSTHomeViewController.m */,
+				8453D913254FF01900E81919 /* Introduce */,
+				8453D8FE254FE61300E81919 /* MSTSearchResultViewController.h */,
+				8453D8FF254FE61300E81919 /* MSTSearchResultViewController.m */,
+				84D587CF254A66160010A69F /* MSTScanResultViewController.h */,
+				84D587D0254A66160010A69F /* MSTScanResultViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -317,6 +466,12 @@
 		84E31DE82539320A000758DD /* DataRequest */ = {
 			isa = PBXGroup;
 			children = (
+				84E31EDA25397CA5000758DD /* MSTDataRequest.h */,
+				84E31ED925397CA5000758DD /* MSTDataRequest.m */,
+				84E31EEE25397DD8000758DD /* MSTDataRequest+Home.h */,
+				84E31EEF25397DD8000758DD /* MSTDataRequest+Home.m */,
+				842C5946254FA10D00605A11 /* MSTApiUtils.h */,
+				842C5947254FA10D00605A11 /* MSTApiUtils.m */,
 			);
 			path = DataRequest;
 			sourceTree = "<group>";
@@ -324,6 +479,7 @@
 		84E31DFC2539320A000758DD /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				842C5936254AB55300605A11 /* UIImageView */,
 				84E31E022539320A000758DD /* UIView */,
 				84E31E0C2539320A000758DD /* NString */,
 			);
@@ -342,6 +498,8 @@
 		84E31E0C2539320A000758DD /* NString */ = {
 			isa = PBXGroup;
 			children = (
+				842C594C254FDA7100605A11 /* NSString+AttributedString.h */,
+				842C594D254FDA7100605A11 /* NSString+AttributedString.m */,
 			);
 			path = NString;
 			sourceTree = "<group>";
@@ -473,9 +631,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D58802254AA4B20010A69F /* ScienceNewCell.xib in Resources */,
+				842C592E254AB47600605A11 /* ScienceRoomItenCell.xib in Resources */,
+				842C5927254AB44200605A11 /* ScienceRoomCell.xib in Resources */,
 				84E31EC125393B9F000758DD /* Main.storyboard in Resources */,
+				84D587F4254AA3670010A69F /* SciencePageResuableView.xib in Resources */,
 				84E31D8E25392D27000758DD /* Assets.xcassets in Resources */,
 				84E31EC025393B9F000758DD /* LaunchScreen.storyboard in Resources */,
+				8453D919254FF06A00E81919 /* MSTIntroduceViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +691,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MST/Pods-MST-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/PYSearch/PYSearch/PYSearch.bundle",
 				"${PODS_ROOT}/WMPlayer/WMPlayer/WMPlayer.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -535,6 +699,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PYSearch.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WMPlayer.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,15 +714,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D587C8254A643E0010A69F /* MSTHeadView.m in Sources */,
+				842C592F254AB47600605A11 /* ScienceRoomItenCell.m in Sources */,
 				84E31D8325392D25000758DD /* AppDelegate.m in Sources */,
+				842C594E254FDA7100605A11 /* NSString+AttributedString.m in Sources */,
 				84E31E8625393689000758DD /* MSTLiveViewController.m in Sources */,
 				84E31E8025393666000758DD /* MSTHomeViewController.m in Sources */,
+				842C593F254AB55300605A11 /* UIImageView+BgLayer.m in Sources */,
+				842C591F254AB41E00605A11 /* ScienceRoomCollectionView.m in Sources */,
+				842C591E254AB41E00605A11 /* ScienceRoomItemCollcetionView.m in Sources */,
 				84E31E552539320A000758DD /* MSTTabBarController.m in Sources */,
+				84D587E6254A96C10010A69F /* ActionTypeButton.m in Sources */,
+				84D587F3254AA3670010A69F /* SciencePageResuableView.m in Sources */,
+				8453D900254FE61300E81919 /* MSTSearchResultViewController.m in Sources */,
+				84D58801254AA4B20010A69F /* ScienceNewCell.m in Sources */,
 				84E31E8C25393690000758DD /* MSTMineViewController.m in Sources */,
+				84E31EDB25397CA6000758DD /* MSTDataRequest.m in Sources */,
+				842C5926254AB44200605A11 /* ScienceRoomCell.m in Sources */,
+				842C593E254AB55300605A11 /* UIImageView+AnimationImageView.m in Sources */,
+				84E31EF025397DD8000758DD /* MSTDataRequest+Home.m in Sources */,
+				84D587D3254A66160010A69F /* MSTScanResultViewController.m in Sources */,
+				84D587E0254A969D0010A69F /* MSTEntranceView.m in Sources */,
 				84E31E562539320A000758DD /* MSTBaseViewController.m in Sources */,
 				84E31E432539320A000758DD /* UIViewExt.m in Sources */,
+				8453D918254FF06A00E81919 /* MSTIntroduceViewController.m in Sources */,
 				84E31E532539320A000758DD /* MSTBaseNaivgationController.m in Sources */,
+				842C5913254AB37400605A11 /* MSTItemModel.m in Sources */,
+				842C593D254AB55300605A11 /* NSObject+Extend.m in Sources */,
+				84D58808254AA4BC0010A69F /* SciencePageNewFooterView.m in Sources */,
+				84D587FA254AA4590010A69F /* SciencePageTableView.m in Sources */,
+				842C5948254FA10D00605A11 /* MSTApiUtils.m in Sources */,
 				84E31D9425392D27000758DD /* main.m in Sources */,
+				84D587EC254A9C1B0010A69F /* MSTActivityModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,13 +901,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GT3YLBV468;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MST/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MST/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zkr.MST;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkr.science;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -733,13 +922,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GT3YLBV468;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MST/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/MST/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zkr.MST;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zkr.science;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
